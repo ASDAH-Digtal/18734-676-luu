@@ -2,6 +2,7 @@
 Name: 
 Date: 
 */
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
 
 .container{ /*DO NOT REMOVE OR EDIT*/
     display: grid;
@@ -14,14 +15,11 @@ Date:
     "footer footer footer";
 }
 
-.container > div{ /*DO NOT REMOVE*/
-    padding: 10px;
-}
-
 header{ /*DO NOT REMOVE*/
     grid-area: header;
     background-color: #1b75bc;
     color: #00ff00;
+    text-align: center;
 }
 
 .side1{ /*DO NOT REMOVE*/
@@ -38,21 +36,28 @@ header{ /*DO NOT REMOVE*/
     grid-area:  section1;
     background-color: #120949;
     color: #00ff00;
+    padding: 50px;
+    font-family: 'Jomhuria', cursive;
+  font-size: 25px;
 }
 
 .section2{ /*DO NOT REMOVE*/
-    grid-area:#120949;
+    grid-area:section2;
      background-color:#1b75bc;
     color: #00ff00;
+    padding: 20px;
+    font-family: 'Jomhuria', cursive;
+    font-size: 25px;
 }
 
 .videoSection{ /*DO NOT REMOVE*/
     grid-area: #120949;
     background-color:#1b75bc;
+    text-align: center;
 }
 
 footer{ /*DO NOT REMOVE*/
     grid-area: footer;
     background-color: #120949;
-    color:#120949);
+    color:#00ff00;
 }
