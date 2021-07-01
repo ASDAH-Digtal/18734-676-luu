@@ -60,4 +60,6 @@ footer{ /*DO NOT REMOVE*/
     grid-area: footer;
     background-color: #120949;
     color:#00ff00;
+    text-align: center;
+    
 }
